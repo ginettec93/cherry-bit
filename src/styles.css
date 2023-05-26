@@ -1,0 +1,25 @@
+:root {
+    --bitcoin-pink: #ff005b;
+    --soft-pink: lightpink;
+    --secondary-blue: #1a9af7;
+    --soft-blue: #e7f5ff;
+    --warm-black: #282623;
+    --black: #201e1c;
+    --grey: #bababa;
+    --off-white: #faf8f7;
+    --just-white: #fff;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+body { 
+    font-family: 'Inter', sans-serif;
+    background-color: #0a0909;
+    background-image: linear-gradient(225deg, #0a0909 0%, #ff005b 50%, #003752 100%);
+}
