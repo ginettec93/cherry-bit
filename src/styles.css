@@ -1,5 +1,5 @@
 :root {
-    --bitcoin-pink: #ff005b;
+    --bitcoin-pink: #6e11d8;
     --soft-pink: lightpink;
     --secondary-blue: #1a9af7;
     --soft-blue: #e7f5ff;
@@ -20,6 +20,36 @@ html {
 }
 body { 
     font-family: 'Inter', sans-serif;
-    background-color: #0a0909;
-    background-image: linear-gradient(225deg, #0a0909 0%, #ff005b 50%, #003752 100%);
+}
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 334px;
+    text-align: center;
+    background-color: #2530c6;
+    background-image: linear-gradient(29deg, #2530c6 0%, #8700fb 52%, #0d1410 90%);
+
+}
+header img {
+    width: 120px;
+    height: 120px;
+    margin-top: 60px;
+    align-self: center;
+}
+header h1 {
+    color: var(--soft-pink);
+}
+.header_title_container {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 218px;
+    margin-top: 40px;
+    align-items: center;
+    align-self: center;
+
 }
