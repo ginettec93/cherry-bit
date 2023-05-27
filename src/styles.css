@@ -52,3 +52,16 @@ header h1 {
     text-align: center;
     align-self: center;
 }
+.header_title_container h2 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--off-white);
+}
+.header_title_container p {
+    margin-top: 25px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--soft-pink);
+}
