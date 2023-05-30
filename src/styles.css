@@ -28,7 +28,7 @@ header {
     justify-content: center;
     width: 100%;
     min-width: 320px;
-    height: 334px;
+    height: auto;
     text-align: center;
     background-color: #2530c6;
     background-image: linear-gradient(29deg, #2530c6 0%, #8700fb 52%, #0d1410 90%);
@@ -64,4 +64,28 @@ header h1 {
     font-weight: 500;
     line-height: 1.8rem;
     color: var(--soft-pink);
+}
+.header_title_container .header_button {
+    position: absolute;
+    display: block;
+    left: calc(50% - 118px);
+    margin-top: 35px;
+    padding: 15px;
+    width: 224px;
+    height: 48px;
+    background-color: var(--off-white);
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--black);
+}
+.header_button span {
+    display: inline-block;
+    width: 13px;
+    height: 8px;
+    margin-left: 10px;
+    background-image: url('../src/assets/down-arrow.svg');
 }
