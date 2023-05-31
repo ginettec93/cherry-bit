@@ -352,7 +352,7 @@ main {
     width: 20px;
     height: 20px;
     margin-bottom: 10px;
-    background-image: url('./assets/clock.svg');
+    background-image: url('./assets/purple_clock-removebg-preview.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -362,7 +362,7 @@ main {
     width: 20px;
     height: 20px;
     margin-bottom: 10px;
-    background-image: url('./assets/eye.svg');
+    background-image: url('./assets/purple_eye-removebg-preview.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -372,7 +372,7 @@ main {
     width: 20px;
     height: 20px;
     margin-bottom: 10px;
-    background-image: url('./assets/dollar-sign.svg');
+    background-image: url('./assets/purple_dollar-removebg-preview.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -382,7 +382,7 @@ main {
     width: 20px;
     height: 20px;
     margin-bottom: 10px;
-    background-image: url('./assets/check-circle.svg');
+    background-image: url('./assets/check-mark-purple.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -417,4 +417,98 @@ main {
     color: var(--just-white);
     text-align: center;
     text-shadow: 10px 6px 10px rgba(89, 73, 30, 0.16);
+}
+.main_plans_container {
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.plans_title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.plans_title h2 {
+    padding-top: 50px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--black);
+}
+.plans_title p {
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #757575;
+}
+.plans_container_card {
+    position: relative;
+    width: 70%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px auto 0;
+    padding: 0 15px;
+    background-color: var(--just-white);
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+}
+.recommended {
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    background-color: var(--bitcoin-pink);
+    color: var(--just-white);
+    border-radius: 8px;
+    left: calc(50% - 60px);
+    top: -15px;
+    font-size: 1.2rem;
+    padding: 6px;
+}
+.plan_card_title {
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--black);
+}
+.plan_card_price {
+    padding: 5px 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 5.3rem;
+    color: var(--black);
+}
+.plan_card_price span {
+    font-size: 1.2rem;
+    font-weight: 300;
+    vertical-align: text-top;
+}
+.plan_card_saving {
+    font-size: 1.2rem;
+    color: #757575;
+}
+.plan_card_ca {
+    width: 150px;
+    height: 48px;
+    margin-top: 20px;
+    background-color: #FAF8F7;
+    border: 2px solid var(--bitcoin-pink);
+    border-radius: 4px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--black);
+}
+.plan_card_ca span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('./assets/right-arrow-purple.svg');
+    vertical-align: text-bottom;
 }
