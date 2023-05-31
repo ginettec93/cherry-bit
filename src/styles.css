@@ -1,6 +1,6 @@
 :root {
     --bitcoin-pink: #6e11d8;
-    --soft-pink: lightpink;
+    --soft-pink: #E8C5E2;
     --secondary-blue: #1a9af7;
     --soft-blue: #e7f5ff;
     --warm-black: #282623;
@@ -129,5 +129,173 @@ main {
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.6rem;
-    color: var(--grey);
+    color: #757575;
+}
+.main_currency_table {
+    width: 70%;
+    min-width: 235px;
+    max-width: 500px;
+    height: 360px;
+    margin: 0 auto;
+    font-family: "Inter" sans-serif;
+}
+.main_currency_table .currency_table__title {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: var(--bitcoin-pink);
+}
+.currency_table_container {
+    width: 90%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 0 auto;
+}
+.currency_table_container table {
+    width: 100%;
+    height: 100%;
+}
+.currency_table_container td {
+    width: 50%;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.9rem;
+    background-color: var(--just-white);
+}
+.background_image_1 {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    margin-left: 10px;
+    background-image: url('./assets/trending-down.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.background_image_2 {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    margin-left: 10px;
+    background-image: url('./assets/trending-up.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.background_image_3 {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    margin-left: 10px;
+    background-image: url('./assets/trending-down.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.background_image_4 {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    margin-left: 10px;
+    background-image: url('./assets/trending-down.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.currency_table_container .table_top_left {
+    border-radius: 15px 0 0 0;
+}
+.currency_table_container .table_top_right {
+    border-radius: 0 15px 0;
+}
+.currency_table_container .table_bottom_right {
+    border-radius: 0 0 15px 0;
+}
+.currency_table_container .table_bottom_left{
+    border-radius: 0 0 0 15px;
+}
+.currency_table_container .table_right {
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1.7rem;
+    color: #757575;
+}
+.currency_table_date {
+    width: 190px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: var(--soft-pink);
+    border-radius: 8px;
+}
+.currency_table_date p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: var(--warm-black);
+}
+.main_commission_table {
+    width: 70%;
+    min-width: 235px;
+    max-width: 500px;
+    height: 360px;
+    margin: 0 auto;
+    font-family: "Inter" sans-serif;
+}
+.main_commission_table .commission_table__title {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: var(--secondary-blue);
+}
+.commission_table_container {
+    width: 90%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 0 auto;
+}
+.commission_table_container table {
+    width: 100%;
+    height: 100%;
+}
+.commission_table_container td {
+    width: 50%;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.9rem;
+    background-color: var(--just-white);
+}
+.commission_table_container .table_top_left {
+    border-radius: 15px 0 0 0;
+}
+.commission_table_container .table_top_right {
+    border-radius: 0 15px 0;
+}
+.commission_table_container .table_bottom_right {
+    border-radius: 0 0 15px 0;
+}
+.commission_table_container .table_bottom_left{
+    border-radius: 0 0 0 15px;
+}
+.commission_table_container .table_right {
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1.7rem;
+    color: #757575;
+}
+.commission_table_date {
+    width: 190px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: var(--soft-blue);
+    border-radius: 8px;
+}
+.commission_table_date p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: var(--warm-black);
 }
