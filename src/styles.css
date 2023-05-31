@@ -400,3 +400,21 @@ main {
     line-height: 1.8rem;
     color: #808080;
 }
+.bitcoin_image_container {
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url('./assets/peoplebtc.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bitcoin_image_container h2 {
+    padding-top: 60px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+    text-align: center;
+    text-shadow: 10px 6px 10px rgba(89, 73, 30, 0.16);
+}
