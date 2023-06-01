@@ -95,14 +95,6 @@ main {
     height: auto;
     background-color: var(--off-white);
 }
-.main_table_container {
-    display: flex;
-    justify-content: center;
-    height: 316px;
-    overflow-x: scroll;
-    overscroll-behavior-x: contain;
-    scroll-snap-type: proximity;
-}
 .main_exchange_container {
     width: 100%;
     height: auto;
