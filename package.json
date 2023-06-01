@@ -1,7 +1,7 @@
 {
   "name": "cherry-bit",
   "version": "1.0.0",
-  "description": "Work in progress",
+  "description": "Cherry-Bit: tu tienda Cripto online de confianza",
   "main": "index.js",
   "scripts": {
     "deploy": "gh-pages -d build"
